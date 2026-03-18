@@ -41,9 +41,176 @@ Transformar a gestão de pessoas em um processo:
 
 ## 🖥️ Preview do Sistema
 
-> ⚠️ Adicione prints do sistema aqui
 
-```md
+
+![Login](./assets/login.png)
 ![Dashboard](./assets/dashboard.png)
 ![Associados](./assets/lista.png)
 ![Ficha](./assets/ficha.png)
+
+---
+
+## ⚙️ Funcionalidades Principais
+
+🔐 **Autenticação Inteligente**
+
+- Login e cadastro com validação por prontuário
+
+- Integração com Firebase Authentication
+
+---
+
+📊 **Dashboard Executivo**
+
+- KPIs em tempo real:
+
+- Total de ativos
+
+- Média de performance
+
+- Ações pendentes
+
+- Ações vencidas
+
+- Gráficos com Chart.js
+
+---
+
+👥 **Gestão de Colaboradores**
+
+- Cadastro completo
+
+- Filtros avançados
+
+- Controle de status (ativo / desligado)
+
+---
+
+🧠 **Avaliação de Performance**
+
+Métricas avaliadas:
+
+- Comportamento
+
+- Absenteísmo
+
+- Pontualidade
+
+- Segurança
+
+- 5S
+
+- Produtividade
+
+✔ Score dinâmico
+✔ Radar de performance
+✔ Histórico evolutivo
+
+---
+
+📈 **Análise de Evolução**
+
+- Gráficos por período
+
+- Tendência de desempenho
+
+- Correlação com ocorrências
+
+---
+
+📝 **Ocorrências**
+
+- Feedbacks
+
+- Faltas:
+
+  - Justificadas (com CID)
+
+  - Injustificadas
+
+---
+
+⚠️ **Advertências**
+
+Tipos:
+
+- Atrasos
+
+- Erro operacional
+
+- Falta injustificada
+
+- Comportamental
+
+Níveis:
+
+- Verbal
+
+- Escrita
+
+---
+
+🎯 **Planos de Ação**
+
+- Criação por métrica
+
+- Responsável + prazo
+
+- Status:
+
+  - Pendente
+
+  - Concluído
+
+✔ Dashboard global
+
+---
+
+📄 **Exportações**
+
+- Excel (CSV)
+
+- PDF
+
+## 🧱 Estrutura do Projeto
+
+AURA/
+│
+├── index.html
+├── styles
+├── scripts
+└── firebase
+
+---
+
+## 🛠️ Tecnologias
+
+**Frontend**
+
+- HTML5
+
+- CSS3
+
+- JavaScript
+
+Bibliotecas
+
+- Chart.js
+
+- SweetAlert2
+
+- html2pdf.js
+
+**Backend**
+
+- Firebase Authentication
+
+- Firebase Firestore
+
+## 🔥 Diferenciais
+
+- JavaScript puro (sem framework)
+
+- Firebase em tempo real
+
+- Dashboard analítico completo
